@@ -8,91 +8,67 @@
 </head>
 <body>
 
-<header class="mobile-header-page mobile">
-    <ul class="mobile-header-list">
-        <li class="header-item">
+<header>
+    <ul class="header-list">
+        <li class="title laptop">
+            <div class="title__line"></div>
+            <h1 class="title__title">Услуги и сервисы</h1>
+        </li>
+        <li class="header-item anti-laptop">
             <button class="header-item__button">
                 <img src="./media/svg/burger.svg" class="header-item__button--burger" alt="Меню">
             </button>
         </li>
-        <li class="header-item"><img src="./media/svg/logo.svg" class="header-item__logo" alt="Логотип CPS"></li>
-        <li class="header-item">
+        <li class="header-item header-item-logo anti-laptop">
+            <img src="./media/svg/logo.svg" class="header-item-logo__svg" alt="Логотип CPS">
+        </li>
+        <li class="header-item anti-laptop">
             <div class="header-item__vertical-line"></div>
         </li>
-        <li class="header-item">
+        <li class="header-item tablet anti-laptop">
             <button class="header-item__button">
-                <img src="./media/svg/tools.svg" class="tools" alt="Инструменты CPS">
+                <img src="./media/svg/phone.svg" class="phone" alt="Горячая линия">
+            </button>
+        </li>
+        <li class="header-item tablet anti-laptop">
+            <button class="header-item__button">
+                <img src="./media/svg/cloud.svg" class="cloud" alt="Чат с CPS">
+            </button>
+        </li>
+        <li class="header-item tablet header-item-people anti-laptop">
+            <button class="header-item__button">
+                <img src="./media/svg/people.svg" alt="Человек CPS">
             </button>
         </li>
         <li class="header-item">
-            <button class="header-item__button">
-                <img src="./media/svg/finder.svg" class="finder" alt="Поиск">
+            <button class="laptop-header-button">
+                <span class="header-item__button mobile">
+                    <img src="./media/svg/finder.svg" alt="Поиск CPS">
+                </span>
+                <span class="header-item__button tablet">
+                    <img src="./media/svg/finder.svg" alt="Поиск CPS">
+                </span>
+                <span class="laptop">Оставить заявку</span>
+                <span class="header-item__button laptop">
+                    <img src="./media/svg/tools.svg" alt="Инструменты CPS">
+                </span>
+            </button>
+        </li>
+        <li class="header-item">
+            <button class="laptop-header-button">
+                <span class="header-item__button mobile">
+                    <img src="./media/svg/tools.svg" alt="Инструменты CPS">
+                </span>
+                <span class="header-item__button tablet">
+                    <img src="./media/svg/tools.svg" alt="Инструменты CPS">
+                </span>
+                <span class="laptop">Статус ремонта</span>
+                <span class="header-item__button laptop">
+                    <img src="./media/svg/finder.svg" class="finder" alt="Поиск">
+            </span>
             </button>
         </li>
     </ul>
-</header>
-<header class="tablet-header-page tablet">
-    <div class="header-left">
-        <button class="header-item__button">
-            <img src="./media/svg/burger.svg" class="header-item__button--burger" alt="Меню">
-        </button>
-        <div class="header-item__vertical-line"></div>
-        <img src="./media/svg/logo.svg" class="header-item__logo" alt="Логотип CPS">
-    </div>
-    <div class="header-right">
-        <ul class="mobile-header-list">
-            <li class="header-item">
-                <button class="header-item__button">
-                    <img src="./media/svg/phone.svg" class="phone" alt="Горячая линия">
-                </button>
-            </li>
-            <li class="header-item">
-                <button class="header-item__button">
-                    <img src="./media/svg/cloud.svg" class="cloud" alt="Чат с CPS">
-                </button>
-            </li>
-            <li class="header-item">
-                <button class="header-item__button">
-                    <img src="./media/svg/people.svg" class="people" alt="Человек CPS">
-                </button>
-            </li>
-            <li class="header-item">
-                <div class="header-item__vertical-line"></div>
-            </li>
-            <li class="header-item">
-                <button class="header-item__button">
-                    <img src="./media/svg/tools.svg" class="tools" alt="Инструменты CPS">
-                </button>
-            </li>
-            <li class="header-item">
-                <button class="header-item__button">
-                    <img src="./media/svg/finder.svg" class="finder" alt="Поиск">
-                </button>
-            </li>
-        </ul>
-    </div>
-</header>
-<header class="laptop-header-page laptop">
-    <div>
-        <section class="title">
-            <div class="title__line"></div>
-            <h1 class="title__title">Услуги и сервисы</h1>
-        </section>
-    </div>
-    <div class="laptop-header-right">
-        <div class="laptop-header-button">
-            <p>Оставить заявку</p>
-            <button class="header-item__button">
-                <img src="./media/svg/tools.svg" class="tools" alt="Инструменты CPS">
-            </button>
-        </div>
-        <div class="laptop-header-button">
-            <p>Статус ремонта</p>
-            <button class="header-item__button">
-                <img src="./media/svg/finder.svg" class="finder" alt="Поиск">
-            </button>
-        </div>
-    </div>
 </header>
 
 <main class="main-page">
@@ -100,18 +76,18 @@
         <div class="title__line"></div>
         <h1 class="title__title">Услуги и сервисы</h1>
     </section>
-    <!--    <section classs="section">-->
+
     <nav class="section">
         <ul class="section-list">
-            <li class="section-list__item section-list__item-active">Ремонтируемые устройcтва</li>
-            <li class="section-list__item section-list__item-passive">Дополнительные услуги</li>
-            <li class="section-list__item section-list__item-passive">Цены на услуги</li>
-            <li class="section-list__item section-list__item-passive">Адреса сервисных центров</li>
-            <li class="section-list__item section-list__item-passive">Специальные цены</li>
-            <li class="section-list__item section-list__item-passive">Отзывы</li>
+            <li><a href="#" class="section-list__item">Ремонтируемые устройcтва</a></li>
+            <li><a href="#" class="section-list__item">Дополнительные услуги</a></li>
+            <li><a href="#" class="section-list__item">Цены на услуги</a></li>
+            <li><a href="#" class="section-list__item">Адреса сервисных центров</a></li>
+            <li><a href="#" class="section-list__item">Специальные цены</a></li>
+            <li><a href="#" class="section-list__item">Отзывы</a></li>
         </ul>
     </nav>
-    <!--    </section>-->
+
     <section class="post">
         <div class="post__text">
             <p class="post__text--text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у
@@ -121,10 +97,10 @@
                 Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
                 количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
                 очередь, советуют нас родным и близким.</p>
-            <div class="post__text--read-next">
+            <button class="post__text--read-next">
                 <img src="./media/svg/read_next.svg" class="post__text--read-next--svg" alt="Читать далее">
-                <p class="post__text--read-next--title">Читать далее</p>
-            </div>
+                <span class="post__text--read-next--title">Читать далее</span>
+            </button>
         </div>
         <img src="./media/png/img.png" class="post__img-article" alt="Табличка CPS">
     </section>

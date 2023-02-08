@@ -52,6 +52,16 @@ main > div, main > nav, main > img{
     padding-top: 24px;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgba(28, 110, 164, 0);
+    text-decoration: none;
+    border: 0 solid #1C6EA4;
+}
+
 .page-wrapper {
     max-width: 320px;
     width: 320px;
