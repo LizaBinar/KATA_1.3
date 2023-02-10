@@ -60,6 +60,7 @@ button {
     background-color: rgba(28, 110, 164, 0);
     text-decoration: none;
     border: 0 solid #1C6EA4;
+    cursor: pointer;
 }
 
 .page-wrapper {
