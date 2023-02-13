@@ -1,0 +1,139 @@
+@media screen and (max-width: 767px){
+    .mobile {
+        display: block !important;
+    }
+    .header-list {
+        justify-content: space-evenly
+    }
+    .header__logo {
+        padding-right: 16px;
+    }
+    .header__logo:after {
+        content: "";
+        width: 2px;
+        height: 32px;
+        border-radius: 1px;
+        background: #EAEAEA;
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .tablet {
+        display: block !important;
+    }
+    .header__item:nth-child(3) {
+        flex-grow: 1;
+    }
+    .header__item:nth-child(6) {
+        padding-right: 16px;
+    }
+    .header__logo {
+        padding-left: 16px;
+    }
+    .header__logo:before {
+        content: "";
+        width: 2px;
+        height: 32px;
+        border-radius: 1px;
+        background: #EAEAEA;
+        position: absolute;
+        left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1023px){
+    .header {
+        background-color: rgba(0,0,0,0) !important;
+    }
+    .laptop {
+        display: block !important;
+    }
+    .header__item:nth-child(1) {
+        flex-grow: 1;
+    }
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.mobile{
+    display: none;
+}
+
+.tablet{
+    display: none;
+}
+
+.laptop{
+    display: none;
+}
+
+.header-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 16px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__item {
+    position: relative;
+}
+
+.header__item:nth-child(6):after {
+    content: "";
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background: #EAEAEA;
+    position: absolute;
+    left: 55px;
+    bottom: 4px;
+}
+
+.base-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+    cursor: pointer;
+    background-color: #FF3E79;
+}
+
+.multi-button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.multi__title {
+    font-family: "TT Lakes", serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header__burger {
+    margin-left: 16px;
+}
+
+.header__logo {
+    width: 100%;
+}
+
+
