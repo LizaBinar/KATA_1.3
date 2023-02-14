@@ -1,32 +1,32 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../asets/fonts/TTLakes-Bold.eot');
+    src: url('../../KATA_1.4/assets/fonts/TTLakes-Bold.eot');
     src: local('TT Lakes Bold'), local('TTLakes-Bold'),
-    url('../asets/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../asets/fonts/TTLakes-Bold.woff') format('woff'),
-    url('../asets/fonts/TTLakes-Bold.ttf') format('truetype');
+    url('../../KATA_1.4/assets/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../KATA_1.4/assets/fonts/TTLakes-Bold.woff') format('woff'),
+    url('../../KATA_1.4/assets/fonts/TTLakes-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../asets/fonts/TTLakesCondensed-Regular.eot');
+    src: url('../../KATA_1.4/assets/fonts/TTLakesCondensed-Regular.eot');
     src: local('TT Lakes Condensed Regular'), local('TTLakesCondensed-Regular'),
-    url('../asets/fonts/TTLakesCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../asets/fonts/TTLakesCondensed-Regular.woff') format('woff'),
-    url('../asets/fonts/TTLakesCondensed-Regular.ttf') format('truetype');
+    url('../../KATA_1.4/assets/fonts/TTLakesCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../KATA_1.4/assets/fonts/TTLakesCondensed-Regular.woff') format('woff'),
+    url('../../KATA_1.4/assets/fonts/TTLakesCondensed-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('../asets/fonts/TTLakes-Medium.eot');
+    src: url('../../KATA_1.4/assets/fonts/TTLakes-Medium.eot');
     src: local('TT Lakes Medium'), local('TTLakes-Medium'),
-    url('../asets/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../asets/fonts/TTLakes-Medium.woff') format('woff'),
-    url('../asets/fonts/TTLakes-Medium.ttf') format('truetype');
+    url('../../KATA_1.4/assets/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../KATA_1.4/assets/fonts/TTLakes-Medium.woff') format('woff'),
+    url('../../KATA_1.4/assets/fonts/TTLakes-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
